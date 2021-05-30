@@ -1,0 +1,11 @@
+[package]
+name = "runner"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.40"
+bootloader-locator = "0.0.4"
+locate-cargo-manifest = "0.2.2"
+structopt = "0.3.21"
+xshell = "0.1.13"

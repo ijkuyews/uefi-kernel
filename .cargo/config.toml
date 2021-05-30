@@ -1,0 +1,6 @@
+[target.'cfg(target_os = "none")']
+runner = "cargo run --package runner --"
+
+[alias]
+xbuild = "run --target x86_64-custom.json -Zbuild-std=alloc,core -Zbuild-std-features=compiler-builtins-mem build"
+xrun = "run --target x86_64-custom.json -Zbuild-std=alloc,core -Zbuild-std-features=compiler-builtins-mem run"
